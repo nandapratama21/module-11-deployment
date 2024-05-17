@@ -29,19 +29,19 @@ Answer:
 
 At first, We will recreate springboot-petclinic-rest version 3.0.2 and edit the replicaset
 
-![Screenshot 1](screenshot1.png)
+![Screenshot 1](Screenshot1.png)
 
 To verify the success of the changes, we can use command like this
 
-![Screenshot 2](screenshot2.png)
+![Screenshot 2](Screenshot2.png)
 
 And then, we delete the pod
 
-![Screenshot 3](screenshot3.png)
+![Screenshot 3](Screenshot3.png)
 
 We can see that the new pods are replacing the old pods before and then the deploy is successful.
 
-![Screenshot 4](screenshot4.png)
+![Screenshot 4](Screenshot4.png)
 
 
 3. Prepare different manifest files for executing Recreate deployment strategy.
